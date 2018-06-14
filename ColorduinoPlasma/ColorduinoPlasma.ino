@@ -55,7 +55,7 @@ void HSVtoRGB(void *vRGB, void *vHSV)
 
   h = (float)(colorHSV->h / 256.0);
   s = (float)(colorHSV->s / 256.0);
-  v = (float)(colorHSV->v / 256.0);4
+  v = (float)(colorHSV->v / 256.0);
 
   //if saturation is 0, the color is a shade of grey
   if(s == 0.0) {
